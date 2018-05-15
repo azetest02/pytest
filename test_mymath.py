@@ -12,7 +12,15 @@ class TestAdd(unittest.TestCase):
         """
         result = mymath.add(1, 2)
         self.assertEqual(result, 3)
- 
+
+    def test_mult_integers(self):
+        """
+        Test that the multiplication of two integers returns the correct total
+        """
+        result = mymath.multiply(2, 3)
+        self.assertEqual(result, 6)
+
+        
     def test_add_floats(self):
         """
         Test that the addition of two floats returns the correct result
