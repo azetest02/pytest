@@ -20,4 +20,4 @@ def new_world():
 def add_num():
         num1 = request.args.get('num1')
         num2 = request.args.get('num2')
-        return mymath.add(num1,num2)
+        return str(mymath.add(int(num1),int(num2)))
