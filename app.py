@@ -23,7 +23,7 @@ def add_num():
         return str(mymath.add(int(num1),int(num2)))
 
 
-@app.route('/mult')
+@app.route('/multiply')
 def add_mult():
         num1 = request.args.get('num1')
         num2 = request.args.get('num2')
